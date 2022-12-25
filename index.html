@@ -159,20 +159,13 @@
 			margin: 20px;
 		}
 
-		.ministry .ministry_card h5 {
-			font-size: 14px;
-			font-weight: 500;
-			color: #fff;
-			height: 100px;
-			background-color: #f1f1f1;
-			padding: 20px 20px;
-
+		.ministry .ministry_card .thumnail_image {
+			height: 130px;
 			background-image: url("./assets/ceu.jpg");
 			opacity: .8;
-			overflow: auto;
 		}
 
-		.ministry .ministry_card:nth-child(2) h5 {
+		.ministry .ministry_card:nth-child(2) .thumnail_image{
 			background-image: url("./assets/monte.jpg");
 		}
 
@@ -301,6 +294,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			text-transform: uppercase;
 		}
 
 		footer span {
@@ -353,7 +347,7 @@
 
 			<div class="ministry">
 				<div class="ministry_card">
-					<h5 class="ministry_title">Vinde a mim todos que estao cansados e sobrecarregados, que eu vos aliviarei.</h5>
+					<div class="thumnail_image"></div>
 					<div class="ministry_live_stream">
 						<p class="timestemp_live">Streamed 1 day ago</p>
 						<div>
@@ -367,7 +361,7 @@
 				</div>
 
 				<div class="ministry_card">
-					<h5 class="ministry_title">Ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.</h5>
+					<div class="thumnail_image"></div>
 					<div class="ministry_live_stream">
 						<p class="timestemp_live">Streamed 10 days ago</p>
 						<div>
